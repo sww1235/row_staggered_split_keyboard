@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SW-Bournes")(type "KiCad")(uri "/home/toxicsauce/projects/src/github.com/sww1235/KiCAD-Libraries/SW-Bournes.pretty")(options "")(descr ""))
+  (lib (name "SW-Adafruit")(type "KiCad")(uri "/home/toxicsauce/projects/src/github.com/sww1235/KiCAD-Libraries/SW-Adafruit.pretty")(options "")(descr ""))
+  (lib (name "SW-Sprintek")(type "KiCad")(uri "/home/toxicsauce/projects/src/github.com/sww1235/KiCAD-Libraries/SW-Sprintek.pretty")(options "")(descr ""))
+)
