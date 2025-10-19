@@ -928,7 +928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "444c8b8b-b570-4e56-9223-1f80cd44717b")
-		(property "Reference" "D2"
+		(property "Reference" "D8"
 			(at 138.43 125.6598 0)
 			(effects
 				(font
@@ -1196,7 +1196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ce81980-6621-486b-b24e-3cfe07123752")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 124.46 149.86 0)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc91d5b-019e-4ad6-9cff-aa51d4964431")
-		(property "Reference" "SW1"
+		(property "Reference" "SW4"
 			(at 121.92 92.7099 90)
 			(effects
 				(font
@@ -1472,7 +1472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -1716,7 +1716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e071228f-c965-4ab8-9f45-e121e178d122")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 123.19 102.8699 90)
 			(effects
 				(font
@@ -1996,7 +1996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6e5fec-5bb0-4c27-afdd-61bb56066f13")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR016"
 			(at 124.46 124.46 0)
 			(effects
 				(font
