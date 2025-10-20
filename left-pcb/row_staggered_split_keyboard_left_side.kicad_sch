@@ -974,221 +974,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SW-Sprintek:SK8707-1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "A"
-				(at -9.398 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://docs.holykeebs.com/datasheets/SK8707-01.pdf"
-				(at -2.54 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Trackpoint"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK8707-1_1_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "IPD_DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "IPD_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "IPD_RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "LEFT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "MIDDLE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "RIGHT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1662,16 +1447,6 @@
 		)
 		(uuid "08db4d5a-b014-4545-b8e6-9228f1a99ca5")
 	)
-	(text "PS2_DATA = GPIO19\nPS2_CLK = GPIO20"
-		(exclude_from_sim no)
-		(at 465.074 89.154 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0ad8287e-8cc2-41b9-93f0-019e2a65c02e")
-	)
 	(text "T"
 		(exclude_from_sim no)
 		(at 236.982 113.03 0)
@@ -1721,16 +1496,6 @@
 			)
 		)
 		(uuid "1e7419dd-5cf8-453b-9c64-2da2f99697c5")
-	)
-	(text "TBD - Reset button"
-		(exclude_from_sim no)
-		(at 509.016 96.012 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1ea99368-9ee5-4592-8fcc-f6c6880f0826")
 	)
 	(text "V"
 		(exclude_from_sim no)
@@ -2021,16 +1786,6 @@
 			)
 		)
 		(uuid "aaa80680-cc82-4f3b-91c9-96cfbeb5d8c0")
-	)
-	(text "Maybe have trackpoint on own KB2040?"
-		(exclude_from_sim no)
-		(at 530.098 119.126 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ab192f4b-fd57-4515-a5d1-345a752bc5a7")
 	)
 	(text "F?"
 		(exclude_from_sim no)
@@ -2746,24 +2501,20 @@
 		(uuid "fe820489-4432-4b6b-92b9-6d12e6e604cf")
 	)
 	(no_connect
-		(at 542.29 91.44)
-		(uuid "03b9709b-360c-48d0-9fa9-6e400928f21b")
+		(at 435.61 88.9)
+		(uuid "72de02f5-75cb-43de-95e9-ade6a50ea142")
 	)
 	(no_connect
-		(at 516.89 91.44)
-		(uuid "1f3261a3-0fe7-4166-87de-b28685c5d930")
+		(at 435.61 86.36)
+		(uuid "750be0e3-1da5-4103-bcb8-bfe4de66e774")
 	)
 	(no_connect
-		(at 542.29 86.36)
-		(uuid "63379ebb-1cda-4b60-b1f0-a699cd867b82")
+		(at 435.61 91.44)
+		(uuid "786ba142-8ded-4a84-b8a7-1c02af8864e7")
 	)
 	(no_connect
 		(at 407.67 63.5)
 		(uuid "7fce5251-b758-4784-b523-6dcf535fa122")
-	)
-	(no_connect
-		(at 435.61 76.2)
-		(uuid "84be7031-705a-4304-a001-de7334497007")
 	)
 	(no_connect
 		(at 435.61 71.12)
@@ -2776,10 +2527,6 @@
 	(no_connect
 		(at 279.4 199.39)
 		(uuid "daa634f0-75de-4495-aa43-c99ecc24151c")
-	)
-	(no_connect
-		(at 542.29 88.9)
-		(uuid "e96d2b8e-50dc-4592-b1ae-04eb7220b6f1")
 	)
 	(wire
 		(pts
@@ -3153,17 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 73.66) (xy 529.59 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc2f720-3aa4-4d4c-acfd-b579daf76ec8")
-	)
-	(wire
-		(pts
-			(xy 435.61 86.36) (xy 443.23 86.36)
+			(xy 435.61 81.28) (xy 443.23 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3220,16 +2957,6 @@
 			(type default)
 		)
 		(uuid "261e4590-fddf-4707-9c0a-79885bcfdc87")
-	)
-	(wire
-		(pts
-			(xy 529.59 101.6) (xy 529.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26294d2e-eba8-411b-b94c-d1b6003e4dd2")
 	)
 	(wire
 		(pts
@@ -3733,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 78.74) (xy 443.23 78.74)
+			(xy 435.61 76.2) (xy 443.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3953,16 +3680,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 86.36) (xy 516.89 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f770e94-1ab2-4407-ba9c-df4508514737")
-	)
-	(wire
-		(pts
 			(xy 127 123.19) (xy 152.4 123.19)
 		)
 		(stroke
@@ -4073,7 +3790,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 83.82) (xy 443.23 83.82)
+			(xy 435.61 78.74) (xy 443.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4330,16 +4047,6 @@
 			(type default)
 		)
 		(uuid "7c7c979d-d37a-4155-9b8f-48959ea76e23")
-	)
-	(wire
-		(pts
-			(xy 435.61 88.9) (xy 443.23 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca4b9a2-573a-4d74-90ff-b11b43b9795c")
 	)
 	(wire
 		(pts
@@ -4733,7 +4440,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 81.28) (xy 443.23 81.28)
+			(xy 435.61 83.82) (xy 443.23 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5333,16 +5040,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 91.44) (xy 443.23 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae58851-a7cb-402f-acbe-7ffa7b77d42d")
-	)
-	(wire
-		(pts
 			(xy 231.14 161.29) (xy 269.24 161.29)
 		)
 		(stroke
@@ -5490,16 +5187,6 @@
 			(type default)
 		)
 		(uuid "d22e4a24-7247-4999-96cc-ea6f04fbbcdd")
-	)
-	(wire
-		(pts
-			(xy 510.54 88.9) (xy 516.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ae0e6d-6bd9-4d30-bfe1-d0675902b437")
 	)
 	(wire
 		(pts
@@ -6062,7 +5749,7 @@
 		(uuid "05eb2954-fc23-4415-932b-3bd425635360")
 	)
 	(label "COL1"
-		(at 397.51 88.9 180)
+		(at 397.51 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6081,53 +5768,33 @@
 		)
 		(uuid "1db01776-733c-4d09-a448-897701ac55d1")
 	)
-	(label "PS2_DATA"
-		(at 443.23 91.44 0)
+	(label "ROW4"
+		(at 443.23 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "385a10e8-fbbb-40ef-8102-2510a1cfc79e")
+		(uuid "3883a7ad-05c5-4ecb-b527-9e634472649c")
 	)
-	(label "ROW4"
-		(at 397.51 78.74 180)
+	(label "COL5"
+		(at 397.51 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3883a7ad-05c5-4ecb-b527-9e634472649c")
-	)
-	(label "COL5"
-		(at 443.23 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
 		(uuid "3efdc273-4df2-4617-bdac-ac05553600e2")
 	)
-	(label "PS2_CLK"
-		(at 443.23 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c17481d-8099-4bb3-b3b3-ef8e633e1362")
-	)
 	(label "COL4"
-		(at 443.23 78.74 0)
+		(at 397.51 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5f6f390b-0af4-4610-ae73-562e6ea6e13b")
 	)
@@ -6152,12 +5819,12 @@
 		(uuid "6a8b3d7f-a862-4693-8aa0-cd7cf2cb9d10")
 	)
 	(label "ROW7"
-		(at 397.51 86.36 180)
+		(at 443.23 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7182bce1-349f-4bfa-a7d8-97b0d050cd52")
 	)
@@ -6170,16 +5837,6 @@
 			(justify right bottom)
 		)
 		(uuid "71a20b83-bb0b-4b0d-8860-486497047ea9")
-	)
-	(label "PS2_CLK"
-		(at 510.54 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76828818-0951-412a-81dd-50ed8326dc6c")
 	)
 	(label "LED_DATA"
 		(at 482.6 116.84 0)
@@ -6252,12 +5909,12 @@
 		(uuid "a0fef9de-db7b-4af7-8fe4-23d0ef54e249")
 	)
 	(label "ROW5"
-		(at 397.51 81.28 180)
+		(at 443.23 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a3d6b44b-2a19-4781-8c38-dcfde99bbe55")
 	)
@@ -6282,7 +5939,7 @@
 		(uuid "b1bfc9bf-5681-437a-b2d9-787962cf4a92")
 	)
 	(label "COL3"
-		(at 397.51 93.98 180)
+		(at 397.51 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6302,34 +5959,24 @@
 		(uuid "b83d3f83-325a-4d98-80ff-52758ac1f273")
 	)
 	(label "COL6"
-		(at 443.23 83.82 0)
+		(at 397.51 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd484f91-262e-491f-bcc4-dbfd18b3e711")
+	)
+	(label "ROW6"
+		(at 443.23 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bd484f91-262e-491f-bcc4-dbfd18b3e711")
-	)
-	(label "ROW6"
-		(at 397.51 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
 		(uuid "be48c9fd-bced-47f1-82ea-008e83289b63")
-	)
-	(label "PS2_DATA"
-		(at 510.54 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbf6dc29-0553-4faf-ac69-ebce1c90aa25")
 	)
 	(label "ROW1"
 		(at 25.4 34.29 180)
@@ -6352,7 +5999,7 @@
 		(uuid "e1abceac-fff6-4f6e-845e-8803c5e529e7")
 	)
 	(label "COL2"
-		(at 397.51 91.44 180)
+		(at 397.51 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6372,12 +6019,12 @@
 		(uuid "e95ce8bd-585b-4678-a443-09972c39f577")
 	)
 	(label "COL7"
-		(at 443.23 86.36 0)
+		(at 397.51 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ee7d7581-8882-40bd-8b06-deb1e5f4c788")
 	)
@@ -6452,160 +6099,6 @@
 			(project ""
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SW-Sprintek:SK8707-1")
-		(at 529.59 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ce24eff-850f-4980-a59c-ac31bfff79b0")
-		(property "Reference" "A2"
-			(at 531.7333 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SK8707-01"
-			(at 531.7333 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical"
-			(at 529.59 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.holykeebs.com/datasheets/SK8707-01.pdf"
-			(at 527.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 529.59 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "fcea3bc3-3fe4-498e-8566-f705ac25e8a2")
-		)
-		(pin "2"
-			(uuid "fd614e33-80eb-43b1-bc97-d78d75755db5")
-		)
-		(pin "3"
-			(uuid "e40e690e-a187-4baf-879a-48566d5c9d5d")
-		)
-		(pin "4"
-			(uuid "fbb6cce6-0fa7-4764-b798-5f294c3ef140")
-		)
-		(pin "5"
-			(uuid "ec16aad2-b072-4c74-b235-feb5ca038216")
-		)
-		(pin "1"
-			(uuid "0a90bd36-d4ef-43e4-95d0-ea673c2e02a1")
-		)
-		(pin "6"
-			(uuid "256f7dd7-3e51-4975-920d-e79fa65059a1")
-		)
-		(pin "7"
-			(uuid "e5e7104f-08ca-402e-9feb-0b80bc9eb13e")
-		)
-		(instances
-			(project ""
-				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b"
-					(reference "A2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 529.59 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38002206-d388-44ce-ad5a-a98c50edc92a")
-		(property "Reference" "#PWR08"
-			(at 529.59 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 529.59 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 529.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 529.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 529.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "937767e5-97d4-4c6a-8282-ebd6f575b068")
-		)
-		(instances
-			(project "row_staggered_split_keyboard"
-				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6962,72 +6455,6 @@
 			(project ""
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 529.59 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97d83777-a57f-4439-b475-17e7356b1799")
-		(property "Reference" "#PWR09"
-			(at 529.59 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 529.59 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 529.59 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 529.59 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 529.59 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "569734ba-0656-472e-8286-02861c7097c9")
-		)
-		(instances
-			(project "row_staggered_split_keyboard"
-				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)

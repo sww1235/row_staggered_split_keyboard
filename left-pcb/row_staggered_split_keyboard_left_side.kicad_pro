@@ -48,11 +48,214 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|101729950|129780000|742e6bed-6acc-454b-8f11-c75208ec37f6|e2517e10-2716-4dc8-afd6-4b063aa58af3",
+          ""
+        ],
+        [
+          "courtyards_overlap|101730000|29780000|edbb8932-0f69-4f2f-b3ce-d16cf8f7437c|f8c91d71-e298-4261-91d2-8afa60e33d73",
+          ""
+        ],
+        [
+          "courtyards_overlap|101730000|48830000|d8fe31ce-bbd7-4f6d-98b6-ad4b71948e78|dd7184bc-3a9d-4e7e-94f1-d707396d0d35",
+          ""
+        ],
+        [
+          "courtyards_overlap|101730000|72630000|5712d655-55e7-4ad4-928f-a4f7e6ce3738|a407285d-f716-4665-b298-289c813033f4",
+          ""
+        ],
+        [
+          "courtyards_overlap|108873750|148830000|76074e8f-5fe7-4f61-bd6d-59d5e5253c8e|f183df91-5cb6-4d0d-9958-d8c03fce0eb4",
+          ""
+        ],
+        [
+          "courtyards_overlap|111255000|91680000|436f75ab-6300-4406-897e-9f4d21aba7e0|fb03feca-3060-4bbc-8b66-94984cccc37e",
+          ""
+        ],
+        [
+          "courtyards_overlap|116017450|110730000|1cc80f29-67e3-4c86-ad16-c16a3cedaead|9ca1993d-a82a-4e65-9641-3fd0a819e4a1",
+          ""
+        ],
+        [
+          "courtyards_overlap|120779950|129780000|8a505300-7a62-41c9-8d2c-310a2284251c|dc639f9c-041b-43a9-80b6-554edd2b9071",
+          ""
+        ],
+        [
+          "courtyards_overlap|120780000|29780000|9ece7008-c14a-4ffd-a498-96563b2b56ed|a5f30f90-3984-4859-b3c9-38fe0b714b51",
+          ""
+        ],
+        [
+          "courtyards_overlap|120780000|48830000|4fe781b8-fd09-4b6a-9395-9568f11d1c16|ab57e8c6-3de2-4f99-82b8-615e8ab8204e",
+          ""
+        ],
+        [
+          "courtyards_overlap|120780000|72630000|9e38b190-f5d3-457a-8424-b10b105e2f97|d8c4bc05-c055-497c-a5c6-ef166c78b31e",
+          ""
+        ],
+        [
+          "courtyards_overlap|130305000|91680000|9f5d01d5-39b7-4114-9d13-0d8fafe9fbba|e7341ca4-bd3c-41f0-9643-704ef787ac5a",
+          ""
+        ],
+        [
+          "courtyards_overlap|135067450|110730000|13ddb166-581a-4d2d-86ff-bf89f2c9ebfa|fc287cad-39a4-4410-a2db-7cdc6be58085",
+          ""
+        ],
+        [
+          "courtyards_overlap|139829950|129780000|4639e263-c9c6-4864-993f-574baec7073d|ba7b5d13-0d0f-4a33-853f-4cefb96ec489",
+          ""
+        ],
+        [
+          "courtyards_overlap|139829950|148830000|0f3d8bf4-7c7f-40c6-bb32-60197dd8001d|addd2755-eed2-44a2-9bad-f14579df6863",
+          ""
+        ],
+        [
+          "courtyards_overlap|139830000|29780000|07133b8b-1666-4753-9670-bca49fc9c1a8|40866c9e-f01d-45f8-a9e6-507b79efcd4b",
+          ""
+        ],
+        [
+          "courtyards_overlap|139830000|48830000|49948287-9b90-4b6d-8b3a-4f8cb9adcc16|f6b43116-5473-4e7c-bf53-b7c1fa49be41",
+          ""
+        ],
+        [
+          "courtyards_overlap|139830000|72630000|5bd76679-0e72-4872-99f8-dd36f925d444|bd84c626-7e87-4f3f-947e-880b352276fa",
+          ""
+        ],
+        [
+          "courtyards_overlap|158880050|110730000|9ee6c3a1-dd37-47f8-9409-c8d8651236eb|f319e98b-60e4-40de-ae88-03037b0fbefd",
+          ""
+        ],
+        [
+          "courtyards_overlap|158880050|129780000|0c8a063e-0cb5-48cd-9088-7a81b5a0c787|98c7e25e-5800-4ec0-b518-61e7488b2ae7",
+          ""
+        ],
+        [
+          "courtyards_overlap|158880050|148830000|ab0256d9-4ba9-413f-84a7-a6c9ec07e4d9|e8efd3e8-7ccc-49d0-bbba-03e174206e02",
+          ""
+        ],
+        [
+          "courtyards_overlap|158880050|72630000|37e118d7-e6ee-4567-91b9-4403d4b3a9fe|80826480-6c07-4c11-bb31-48db76a90480",
+          ""
+        ],
+        [
+          "courtyards_overlap|158880050|91680000|c935dc73-1d84-4bb6-82bc-22598e05894a|d0cd482d-8f2e-4539-86ff-3a1560da5b30",
+          ""
+        ],
+        [
+          "courtyards_overlap|25530000|29780000|c52f76bd-3ee4-42bf-8677-447b9f593ddd|dd979385-2597-4737-8ff2-d873c68600af",
+          ""
+        ],
+        [
+          "courtyards_overlap|25530000|48830000|b9a487f0-fdaa-4da3-9bc6-1b1139ca3067|e2e44ad9-1b55-4807-8bd8-d7e050b92dea",
+          ""
+        ],
+        [
+          "courtyards_overlap|25530000|72630000|0c9942cb-0878-4adf-9138-c9bd171070dc|c3ef105f-257c-454a-a693-f4bd39c1686b",
+          ""
+        ],
+        [
+          "courtyards_overlap|27911250|148830000|a13d16d3-f6ef-4ae5-b94e-fe4800b6e1e4|ef895bcc-d8c9-47e5-a741-7151b36ba348",
+          ""
+        ],
+        [
+          "courtyards_overlap|30292500|91680000|943b29ea-cf48-4fdc-b658-2a8842a693d8|9a01bf76-98f2-4510-9e24-51260697767e",
+          ""
+        ],
+        [
+          "courtyards_overlap|32673700|110730000|4e1921d9-8e3c-4850-9607-c7b7c6b6cb4a|fee2666f-6f45-413f-ab85-2d44d6be1d85",
+          ""
+        ],
+        [
+          "courtyards_overlap|35054950|129780000|9250235b-a878-4d19-828d-ccfa3a1686e2|ee3da2cd-8cb4-4fa5-b7b2-08fd0ecc4289",
+          ""
+        ],
+        [
+          "courtyards_overlap|44580000|29780000|03574dc8-6c3b-4ff2-88e9-a26ef8c55770|59598f72-fb4e-4f3f-adef-22d275451601",
+          ""
+        ],
+        [
+          "courtyards_overlap|44580000|48830000|05ad9f79-d707-49f4-9d13-6fa04b415112|426154ef-5f96-4e98-a94f-e603797b1355",
+          ""
+        ],
+        [
+          "courtyards_overlap|44580000|72630000|4e8cfa3e-a134-41f3-b83b-f31792c77198|56c298f9-583e-41d4-866f-f3da3ef9f748",
+          ""
+        ],
+        [
+          "courtyards_overlap|51723750|148830000|3de6042c-f40b-4963-ad70-add2ee6524bf|af29db3f-8950-451e-accd-c0885d9d9b68",
+          ""
+        ],
+        [
+          "courtyards_overlap|54105000|91680000|cac3d26e-7233-4c7f-9bff-b1ef77933efd|d93bec5d-540d-474b-91fc-00ef55f6d320",
+          ""
+        ],
+        [
+          "courtyards_overlap|58867450|110730000|d88f48f0-454a-4728-b094-364e486f2878|e63af06a-e63c-4f12-a46c-a68e9b7fa780",
+          ""
+        ],
+        [
+          "courtyards_overlap|63629950|129780000|571a0bf1-7567-4a1a-9deb-e9871431ade8|e47cfd0d-e3d2-4a7e-8d1a-75d8cdf6ab6c",
+          ""
+        ],
+        [
+          "courtyards_overlap|63630000|29780000|1b283a34-9744-479f-8f75-6edad4f012b1|6bbd134c-7edd-4dd1-b8e3-9d3327b1da69",
+          ""
+        ],
+        [
+          "courtyards_overlap|63630000|48830000|05847a2b-478f-4ab8-99f7-99641d75b541|222e3333-59fc-472b-a699-c38dd45c85f2",
+          ""
+        ],
+        [
+          "courtyards_overlap|63630000|72630000|11203b58-f35d-4eb7-b137-7a09bbd24302|24771e52-4dd3-45fd-a367-3f34cf8fb6e4",
+          ""
+        ],
+        [
+          "courtyards_overlap|73155000|91680000|03d87d9b-1c6d-4f5a-9024-80ac16630516|faebb5b9-3273-48ae-bb8e-de8288bd6252",
+          ""
+        ],
+        [
+          "courtyards_overlap|75536250|148830000|3f5270f0-34e5-4ffe-a58f-24e0efde73fb|7f48e546-8c6d-4813-9915-72255d377002",
+          ""
+        ],
+        [
+          "courtyards_overlap|77917450|110730000|5aba537d-d034-47a5-a006-ce9ccdf740c0|a6a4e57f-bdc1-494e-a77c-fcde370f0059",
+          ""
+        ],
+        [
+          "courtyards_overlap|82679950|129780000|4084455f-8b0c-4def-8162-38de763f4a26|847f8cb1-ada2-4a35-b42e-3d57b32edefe",
+          ""
+        ],
+        [
+          "courtyards_overlap|82680000|29780000|71049ef5-f342-42e1-83b5-63bf0dd4df7b|a3a09dc2-4691-455a-b121-abf327729249",
+          ""
+        ],
+        [
+          "courtyards_overlap|82680000|48830000|52ac86de-b3a8-4919-a20e-8fe99d1fa84f|675ac60f-1ecf-415a-80e0-c4f904d06a6b",
+          ""
+        ],
+        [
+          "courtyards_overlap|82680000|72630000|09f763d7-3c70-463a-a653-07c753accae7|910799a0-fad3-4ebf-9a73-072bed23e2d4",
+          ""
+        ],
+        [
+          "courtyards_overlap|92205000|91680000|28370ca6-d0cc-40fd-96e0-62ad8527a9b4|56d93772-258e-4306-97bc-62f829a272dd",
+          ""
+        ],
+        [
+          "courtyards_overlap|96967450|110730000|0bf5e4f6-9cca-4924-839f-b259e58495e9|c881e115-e921-4867-ae79-e53ac4e8ccf2",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -60,9 +263,9 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -72,7 +275,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -117,22 +320,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1524,
+        "min_connection": 0.1524,
+        "min_copper_edge_clearance": 0.381,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_clearance": 0.127,
+        "min_hole_to_hole": 0.127,
+        "min_microvia_diameter": 0.508,
+        "min_microvia_drill": 0.254,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_text_thickness": 0.127,
+        "min_through_hole_diameter": 0.254,
+        "min_track_width": 0.1524,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +383,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +412,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -413,7 +623,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -451,7 +661,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "row_staggered_split_keyboard.kicad_pro",
+    "filename": "row_staggered_split_keyboard_left_side.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -473,6 +683,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -560,12 +784,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
