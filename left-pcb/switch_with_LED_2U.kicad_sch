@@ -1229,7 +1229,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148W"
 			(at 123.19 105.4099 90)
 			(effects
 				(font
