@@ -315,6 +315,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SW-Adafruit:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
@@ -1088,7 +1171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00dca9c0-9e22-43b5-bd8f-970822c628d4")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0114"
 			(at 107.95 124.46 0)
 			(effects
 				(font
@@ -1138,7 +1221,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/6b1ebd07-8927-4363-9ca1-15fd56b1bbda"
-					(reference "#PWR0113")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1154,7 +1237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17ce89ae-e796-4e17-bb19-a15886c759cf")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0115"
 			(at 124.46 124.46 0)
 			(effects
 				(font
@@ -1204,7 +1287,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/6b1ebd07-8927-4363-9ca1-15fd56b1bbda"
-					(reference "#PWR0114")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -1308,7 +1391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f381b94-1e7c-4ae7-862d-402b47d52c60")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0116"
 			(at 124.46 149.86 0)
 			(effects
 				(font
@@ -1358,7 +1441,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/6b1ebd07-8927-4363-9ca1-15fd56b1bbda"
-					(reference "#PWR0115")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -1429,6 +1512,70 @@
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/6b1ebd07-8927-4363-9ca1-15fd56b1bbda"
 					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 146.05 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b8f5a87-d8b8-4918-8412-b42af792564b")
+		(property "Reference" "H5"
+			(at 148.59 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2U Stabilizer"
+			(at 148.59 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/6b1ebd07-8927-4363-9ca1-15fd56b1bbda"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -1514,7 +1661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd97dda2-fee2-402c-845e-e271626d68e8")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0113"
 			(at 107.95 111.76 0)
 			(effects
 				(font
@@ -1564,7 +1711,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/6b1ebd07-8927-4363-9ca1-15fd56b1bbda"
-					(reference "#PWR0112")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)

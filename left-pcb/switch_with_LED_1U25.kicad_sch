@@ -1088,7 +1088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16249eca-e6e7-47b5-968d-766ea28be7ad")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0139"
 			(at 124.46 124.46 0)
 			(effects
 				(font
@@ -1206,7 +1206,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/74f1d740-4378-46c9-bc38-11c0ec54df6e"
-					(reference "#PWR0142")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/78478202-26c2-4625-bf83-4c19296fa9be"
@@ -1250,7 +1250,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/c8cd9c33-6ded-45e7-a59e-413c0e5e412b"
-					(reference "#PWR0146")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ce6e1388-d863-4b60-9cd4-1f219ca7100c"
@@ -1258,7 +1258,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "#PWR0138")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/d148bd9f-4ab9-418a-abad-2b57e15b9ffd"
@@ -1726,7 +1726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4528946a-ff58-4571-9570-e54fd32c7689")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0137"
 			(at 107.95 113.03 0)
 			(effects
 				(font
@@ -1776,15 +1776,15 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/74f1d740-4378-46c9-bc38-11c0ec54df6e"
-					(reference "#PWR0140")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/c8cd9c33-6ded-45e7-a59e-413c0e5e412b"
-					(reference "#PWR0144")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "#PWR0136")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -1800,7 +1800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96f7efb2-ae13-46b6-809f-72ff68e5674b")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0140"
 			(at 124.46 149.86 0)
 			(effects
 				(font
@@ -1918,7 +1918,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/74f1d740-4378-46c9-bc38-11c0ec54df6e"
-					(reference "#PWR0143")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/78478202-26c2-4625-bf83-4c19296fa9be"
@@ -1962,7 +1962,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/c8cd9c33-6ded-45e7-a59e-413c0e5e412b"
-					(reference "#PWR0147")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ce6e1388-d863-4b60-9cd4-1f219ca7100c"
@@ -1970,7 +1970,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/d148bd9f-4ab9-418a-abad-2b57e15b9ffd"
@@ -2002,7 +2002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99587f01-f882-4490-9d00-15afd497d37b")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0138"
 			(at 107.95 125.73 0)
 			(effects
 				(font
@@ -2052,15 +2052,15 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/74f1d740-4378-46c9-bc38-11c0ec54df6e"
-					(reference "#PWR0141")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/c8cd9c33-6ded-45e7-a59e-413c0e5e412b"
-					(reference "#PWR0145")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "#PWR0137")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
