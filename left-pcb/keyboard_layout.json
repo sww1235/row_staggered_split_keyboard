@@ -1,0 +1,124 @@
+[
+  {
+    "name": "row-staggered-split-keyboard-left-hand",
+    "author": "Stephen Walker-Weinshenker",
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "switchType": "MX1A-G1Nx",
+    "pcb": true
+  },
+  [
+    {
+      "sm": "cherry",
+      "sb": "cherry"
+    },
+    {
+      "p": "R1"
+    },
+    {
+      "a": 6
+    },
+    "F5",
+    "ESC",
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  [
+    {
+      "ry": 0.25,
+      "y": 1
+    },
+    "F6",
+    {
+      "a": 4
+    },
+    "~\n`",
+    "!\n1",
+    "@\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "^\n6"
+  ],
+  [
+    {
+      "a": 6
+    },
+    "F7",
+    {
+      "p": "R2",
+      "w": 1.5
+    },
+    "TAB",
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T"
+  ],
+  [
+    {
+      "p": "R1"
+    },
+    "F8",
+    {
+      "p": "R3",
+      "w": 1.75
+    },
+    "CAPS",
+    "A",
+    "S",
+    "D",
+    {
+      "n": true
+    },
+    "F",
+    "G"
+  ],
+  [
+    {
+      "p": "R1"
+    },
+    "F9",
+    {
+      "p": "R4",
+      "w": 2
+    },
+    "SHIFT",
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B"
+  ],
+  [
+    {
+      "p": "R1"
+    },
+    "F10",
+    {
+      "p": "SPACE",
+      "w": 1.25
+    },
+    "CTL",
+    {
+      "w": 1.25
+    },
+    "META",
+    {
+      "w": 1.25
+    },
+    "ALT",
+    {
+      "w": 2.25
+    },
+    "",
+    {
+      "p": "R1",
+      "a": 6
+    },
+    "FN"
+  ]
+]
