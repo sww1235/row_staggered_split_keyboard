@@ -6558,6 +6558,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "142fa44a-84c2-40a7-b5e4-c3dc03b37558")
 		(at 29.025 32.075)
@@ -6566,7 +6567,7 @@
 		(property "Reference" "H1"
 			(at 0 3.7 0)
 			(layer "F.SilkS")
-			(uuid "a7d17878-e602-4cae-9ffb-afdf92135e39")
+			(uuid "fd0fac8a-25e8-4d4c-973b-9a8280b34d8c")
 			(effects
 				(font
 					(size 1 1)
@@ -6577,7 +6578,7 @@
 		(property "Value" "M3"
 			(at 0 3.7 0)
 			(layer "F.Fab")
-			(uuid "7ff733c4-07cc-4ac1-8d9b-346b11b4c073")
+			(uuid "95d01983-ab18-45b7-b249-171c75fa70e2")
 			(effects
 				(font
 					(size 1 1)
@@ -6589,7 +6590,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6c7333b-c6db-4982-a7be-cb71e9a95f73")
+			(uuid "1b577fe9-f1af-40d2-b704-358b999f84bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6602,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67a07e13-ef5a-46f4-98a2-dc9b5332d05c")
+			(uuid "f5dd7368-023b-4344-8e0f-7b96e180c9c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20785,6 +20786,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5772ce0b-1e8a-489f-8e1d-8e4d7b7e3863")
 		(at 187.075 157.075)
@@ -24685,6 +24687,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "699baec0-3bba-4acc-9878-4a7ac0731b61")
 		(at 187.075 32.075)
@@ -41492,6 +41495,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c8d11bf0-9441-4fdc-b92d-560f7aa35260")
 		(at 29.025 157.075)
@@ -77814,6 +77818,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "a8a4d96f-5b58-4e76-93f3-fcef9ceee28b")
 	)
@@ -77824,6 +77829,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "bd3fbcd2-2919-4457-ac7f-c0b4e2295979")
 	)
@@ -77834,6 +77840,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "c8b7acf1-092d-4a53-a50a-646350de3575")
 	)
@@ -77844,6 +77851,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "e4b2fa3d-5744-4f86-b6ba-ade97d63854c")
 	)
@@ -78315,9 +78323,48 @@
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
+		(uuid "c018c9d7-0bcf-4343-a48d-ba1919cb1e75")
+		(pts
+			(xy 32 54.1) (xy 32 58.85)
+		)
+		(height -10.575)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "4.75"
+			(at 19.625 56.475 90)
+			(layer "Cmts.User")
+			(uuid "c018c9d7-0bcf-4343-a48d-ba1919cb1e75")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(locked yes)
+		(layer "Cmts.User")
 		(uuid "f0c1723f-a23f-483f-b102-653ebc65b8e4")
 		(pts
-			(xy 25.525 28.575) (xy 190.575 28.575)
+			(xy 25.525 28.575) (xy 190.525 28.575)
 		)
 		(height -10.1)
 		(orientation 0)
@@ -78338,8 +78385,9 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "165.05"
-			(at 108.05 17.325 0)
+		(gr_text "165"
+			(locked yes)
+			(at 108.025 17.325 0)
 			(layer "Cmts.User")
 			(uuid "f0c1723f-a23f-483f-b102-653ebc65b8e4")
 			(effects
@@ -78352,6 +78400,7 @@
 	)
 	(dimension
 		(type orthogonal)
+		(locked yes)
 		(layer "Cmts.User")
 		(uuid "f3f15531-479c-4324-acb6-534312eabd53")
 		(pts
@@ -78377,6 +78426,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "132"
+			(locked yes)
 			(at 205.375 94.575 90)
 			(layer "Cmts.User")
 			(uuid "f3f15531-479c-4324-acb6-534312eabd53")
