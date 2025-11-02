@@ -1171,7 +1171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07855949-ba9a-45ca-a79c-8ffc78378bb6")
-		(property "Reference" "SW31"
+		(property "Reference" "SW37"
 			(at 121.92 92.7099 90)
 			(effects
 				(font
@@ -1345,7 +1345,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "SW7")
+					(reference "SW37")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/d148bd9f-4ab9-418a-abad-2b57e15b9ffd"
@@ -1377,7 +1377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258ad608-08c3-4050-93f0-b6151490451f")
-		(property "Reference" "D62"
+		(property "Reference" "D74"
 			(at 138.43 125.6598 0)
 			(effects
 				(font
@@ -1557,7 +1557,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "D14")
+					(reference "D74")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/d148bd9f-4ab9-418a-abad-2b57e15b9ffd"
@@ -1589,7 +1589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "346fd7d7-0c74-41aa-8707-be8dc26cb8dc")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0162"
 			(at 107.95 125.73 0)
 			(effects
 				(font
@@ -1646,6 +1646,10 @@
 					(reference "#PWR0150")
 					(unit 1)
 				)
+				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
+					(reference "#PWR0162")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1659,7 +1663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd9e6a9-818a-4a82-be07-25e257b5f5e4")
-		(property "Reference" "C38"
+		(property "Reference" "C41"
 			(at 110.49 113.0362 0)
 			(effects
 				(font
@@ -1720,6 +1724,10 @@
 					(reference "C38")
 					(unit 1)
 				)
+				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
+					(reference "C41")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1733,7 +1741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e63a458-abdf-4758-a925-a87c8fa07d94")
-		(property "Reference" "D61"
+		(property "Reference" "D73"
 			(at 123.19 102.8699 90)
 			(effects
 				(font
@@ -1925,7 +1933,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "D13")
+					(reference "D73")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/d148bd9f-4ab9-418a-abad-2b57e15b9ffd"
@@ -1957,7 +1965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "507459a8-80d5-43e5-bfcf-dfeb3233e492")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0161"
 			(at 107.95 113.03 0)
 			(effects
 				(font
@@ -2014,6 +2022,10 @@
 					(reference "#PWR0149")
 					(unit 1)
 				)
+				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
+					(reference "#PWR0161")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2027,7 +2039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a6ea2e-f618-477d-854a-88c1218bd449")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0164"
 			(at 124.46 149.86 0)
 			(effects
 				(font
@@ -2197,7 +2209,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "#PWR023")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/d148bd9f-4ab9-418a-abad-2b57e15b9ffd"
@@ -2284,6 +2296,10 @@
 					(reference "H6")
 					(unit 1)
 				)
+				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
+					(reference "H6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2297,7 +2313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a716c0-54da-4e75-ac42-0ef2ff7a1caa")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0163"
 			(at 124.46 124.46 0)
 			(effects
 				(font
@@ -2467,7 +2483,7 @@
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/ceb25589-dab0-4ec4-bc76-eeaced9b67af"
-					(reference "#PWR022")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/d148bd9f-4ab9-418a-abad-2b57e15b9ffd"
