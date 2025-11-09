@@ -878,6 +878,10 @@
         [
           "courtyards_overlap|96680000|90680000|03d87d9b-1c6d-4f5a-9024-80ac16630516|faebb5b9-3273-48ae-bb8e-de8288bd6252",
           ""
+        ],
+        [
+          "starved_thermal|168375000|45425000|9f1e5cc9-652d-4064-b914-dfa0e4577773|a723b135-0cef-48d9-812a-ef2efc7c8e3e|B.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -887,7 +891,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
         "creepage": "error",
@@ -1348,7 +1352,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcb-review/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -1483,7 +1487,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "pcb-review/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
