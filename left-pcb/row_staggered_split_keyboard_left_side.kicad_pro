@@ -240,10 +240,6 @@
         [
           "courtyards_overlap|96680000|71630000|11203b58-f35d-4eb7-b137-7a09bbd24302|24771e52-4dd3-45fd-a367-3f34cf8fb6e4",
           ""
-        ],
-        [
-          "starved_thermal|168375000|45425000|9f1e5cc9-652d-4064-b914-dfa0e4577773|a723b135-0cef-48d9-812a-ef2efc7c8e3e|B.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -302,7 +298,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -895,7 +891,7 @@
         "uuid": "cf145565-22e2-4e5a-8a27-915862c57a1b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,SW1-41,J1,H1-7,D1-82,C1-45,A1,#PWR1-180,#FLG1",
     "variants": []
   },
   "sheets": [

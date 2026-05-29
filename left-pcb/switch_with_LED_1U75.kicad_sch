@@ -1018,43 +1018,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 86.36) (xy 120.65 88.9)
+			(xy 124.46 120.65) (xy 124.46 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f9ae5d1-388c-4b4e-8a23-c963a09caea9")
-	)
-	(wire
-		(pts
-			(xy 120.65 110.49) (xy 130.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1695a38f-4f12-4afe-944e-1757b273eebf")
-	)
-	(wire
-		(pts
-			(xy 120.65 99.06) (xy 120.65 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d47b58c-047a-4e80-8f8d-c11265f9fdc0")
-	)
-	(wire
-		(pts
-			(xy 132.08 132.08) (xy 135.89 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2de45cd7-567b-403b-8d84-c9a54c36ccf1")
+		(uuid "112d38ab-1d22-4d34-9058-b2a802af1295")
 	)
 	(wire
 		(pts
@@ -1064,7 +1034,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "43344825-756b-417d-80c3-37dfad5e198d")
+		(uuid "1a0ae58d-013d-4427-8424-a034920bfca2")
+	)
+	(wire
+		(pts
+			(xy 120.65 86.36) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35281117-0e5b-4208-ae75-8fe42e63393e")
 	)
 	(wire
 		(pts
@@ -1074,7 +1054,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "67d304ae-311e-416e-9775-c488e4f1c0ec")
+		(uuid "39ec8367-68e3-4958-894b-b2439ebeb5a7")
+	)
+	(wire
+		(pts
+			(xy 132.08 132.08) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebc25a6-2e97-4c31-83a9-a646946e7f3b")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c23059-fadc-4846-a27b-f608f415d781")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a346f977-a109-43c3-b37f-4e6cdd7ed26a")
 	)
 	(wire
 		(pts
@@ -1084,17 +1094,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b4a045f1-c906-49a2-8f5b-454fbe49d6dc")
-	)
-	(wire
-		(pts
-			(xy 124.46 120.65) (xy 124.46 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb8f26c-9d1f-4046-beb2-52ad6edea262")
+		(uuid "bc16c40e-e332-40ff-ba91-98963209e171")
 	)
 	(wire
 		(pts
@@ -1124,7 +1124,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f905d9cb-0563-4150-b652-3947059a68c2")
+		(uuid "f3439976-25c9-44cc-b9da-bd7ac4cc1dfa")
 	)
 	(hierarchical_label "DOUT"
 		(shape output)
@@ -1182,7 +1182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "055583b4-d566-4e23-9ea0-c1dbd1e3ad9e")
-		(property "Reference" "D37"
+		(property "Reference" "D45"
 			(at 123.19 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1268,7 +1268,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "D37")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -1286,7 +1286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "237baab5-fae9-46b0-84ec-fe87688bcf4d")
-		(property "Reference" "SW19"
+		(property "Reference" "SW23"
 			(at 121.92 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1350,7 +1350,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "SW19")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -1368,7 +1368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "286b9c0b-a0ec-4897-bfcf-265acd2c88a2")
-		(property "Reference" "D38"
+		(property "Reference" "D46"
 			(at 138.43 125.6598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1438,7 +1438,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "D38")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -1456,7 +1456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e840320-e60c-43ee-9f45-f2917bac76f4")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0108"
 			(at 124.46 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -1516,7 +1516,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "#PWR092")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1534,7 +1534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be7010cc-47e8-4f1b-a3f8-f0aeb84e8483")
-		(property "Reference" "C23"
+		(property "Reference" "C27"
 			(at 107.95 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1598,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "C23")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1616,7 +1616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2d42b36-8d30-4aaf-91de-97f2e04a5add")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0105"
 			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1676,7 +1676,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "#PWR089")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -1694,7 +1694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3879ded-187c-45e8-ada3-1d2d99a43771")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0106"
 			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1754,7 +1754,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "#PWR090")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -1772,7 +1772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cabb28b4-1cba-4a44-b69d-d479cf79fabb")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0107"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1832,7 +1832,7 @@
 		(instances
 			(project "row_staggered_split_keyboard_left_side"
 				(path "/cf145565-22e2-4e5a-8a27-915862c57a1b/458a0dcf-17de-4473-ba10-e24c951ff17a"
-					(reference "#PWR091")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
