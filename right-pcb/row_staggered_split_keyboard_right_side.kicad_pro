@@ -732,7 +732,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "pcb-review/",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -891,7 +891,7 @@
         "uuid": "cf145565-22e2-4e5a-8a27-915862c57a1b"
       }
     ],
-    "used_designators": "U1,SW1-41,J1,H1-7,D1-82,C1-45,A1,#PWR1-180,#FLG1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
