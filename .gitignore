@@ -41,3 +41,11 @@ fp-info-cache
 
 # Ignore generated PNG images
 *.png
+
+# Ignore generated gerbers
+
+right-pcb/gerbers/*
+left-pcb/gerbers/*
+
+right-pcb/gerbers.zip
+left-pcb/gerbers.zip
