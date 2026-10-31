@@ -77190,7 +77190,7 @@
 			)
 		)
 	)
-	(gr_text "CTL"
+	(gr_text "SPACE"
 		(at 56.75 136.575 0)
 		(layer "F.SilkS")
 		(uuid "661a935f-cdf0-48e3-8c8b-24796e4c5ec4")
@@ -77502,6 +77502,17 @@
 		(at 162.275 98.325 0)
 		(layer "F.SilkS")
 		(uuid "a7851b54-1f4e-41e7-8032-5ceb55a730bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.13)
+			)
+		)
+	)
+	(gr_text "BKSP"
+		(at 164.945 60.365 0)
+		(layer "F.SilkS")
+		(uuid "231f9f39-8b41-402c-a305-b2ebfa31c635")
 		(effects
 			(font
 				(size 1 1)
