@@ -77658,6 +77658,82 @@
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
+		(uuid "6e9fdf1b-32c0-4839-a252-ccc0806e223d")
+		(pts
+			(xy 187.075 32.075) (xy 29.025 32.075)
+		)
+		(height -10.06)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "158.05"
+			(at 108.05 20.865 0)
+			(layer "Cmts.User")
+			(uuid "6e9fdf1b-32c0-4839-a252-ccc0806e223d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "92f71680-a027-4ce1-aa3f-850755727c06")
+		(pts
+			(xy 29.025 157.075) (xy 29.025 32.075)
+		)
+		(height -13.59)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "125"
+			(at 14.285 94.575 90)
+			(layer "Cmts.User")
+			(uuid "92f71680-a027-4ce1-aa3f-850755727c06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
 		(uuid "966146ef-4e3e-4177-96ac-f092a70cec57")
 		(pts
 			(xy 108.225 96.325) (xy 25.525 28.575)
@@ -77699,7 +77775,7 @@
 		(layer "Cmts.User")
 		(uuid "f0c1723f-a23f-483f-b102-653ebc65b8e4")
 		(pts
-			(xy 25.525 28.575) (xy 190.575 28.575)
+			(xy 25.525 28.575) (xy 190.525 28.575)
 		)
 		(height -10.1)
 		(orientation 0)
@@ -77720,9 +77796,9 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "165.05"
+		(gr_text "165"
 			(locked yes)
-			(at 108.05 17.325 0)
+			(at 108.025 17.325 0)
 			(layer "Cmts.User")
 			(uuid "f0c1723f-a23f-483f-b102-653ebc65b8e4")
 			(effects
